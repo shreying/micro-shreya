@@ -1,0 +1,83 @@
+
+<!DOCTYPE HTML><html lang="en">
+<head>
+  <title>index</title>
+  <meta charset="UTF8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+  <main>
+    <form id="survey-form" action="https://survey-form.freecodecamp.rocks/">
+       <fieldset>
+          <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+        </fieldset>
+        <fieldset>
+          <label for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required /></label>
+        </fieldset>
+        <fieldset>
+          <label for="number" id="number-label">Age (optional) <input id="number" type="number" max="99" min="10" placeholder="Age" /></label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">Which option best describes your current role?
+            <select id="dropdown">
+              <option value="">Select your current role</option>
+              <option value="1">Student</option>
+              <option value="2">Full time job </option>
+              <option value="3">Full time learner</option>
+              <option value="4">Prefer not to say</option>
+              <option value="5">Other</option>
+            </select>
+          </fieldset>
+          <fieldset>
+          Would you recommend freeCodeCamp to a friend?<label for="def"><input id="def" type="radio" name="reco" class="inline" value="a" /> Definitely</label>
+        <label for="maybe"><input id="maybe" type="radio" name="reco" class="inline" value="b" /> Maybe</label>
+        <label for="not"><input id="not" type="radio" name="reco" class="inline" value="c" /> Not sure</label>
+          </fieldset>
+          <fieldset>
+        <label for="dropdowntwo">What is your favorite feature of freeCodeCamp?
+            <select id="dropdowntwo">
+              <option value="6">Select an option</option>
+              <option value="7">Challenges</option>
+              <option value="8">Projects </option>
+              <option value="9">Community</option>
+              <option value="10">Open source</option>
+            </select>
+          </fieldset>
+          <fieldset>
+          What would you like to see improved? (Check all that apply)
+          <label for="improv"><input id="improv" type="checkbox" name="improv" class="inline" value="ab" />Front-end Projects</label>
+          <label for="improv1">
+          <input id="improv1" type="checkbox" name="improv" class="inline" value="ac" />Back-end Projects</label>
+          <label for="improv2">
+          <input id="improv2" type="checkbox" name="improv" class="inline" value="ad" />Data Visualization</label>
+          <label for="improv3">
+          <input id="improv3" type="checkbox" name="improv" class="inline" value="ae" />Challenges</label>
+          <label for="improv4">
+          <input id="improv4" type="checkbox" name="improv" class="inline" value="af" />Open Source Community</label>
+          <label for="improv5">
+          <input id="improv5" type="checkbox" name="improv" class="inline" value="ag" />Gitter help rooms</label>
+          <label for="improv6">
+          <input id="improv6" type="checkbox" name="improv" class="inline" value="ah" />Videos</label>
+          <label for="improv7">
+          <input id="improv7" type="checkbox" name="improv" class="inline" value="ai" />City Meetups</label>
+           <label for="improv8">
+           <input id="improv8" type="checkbox" name="improv" class="inline" value="aj" />Wiki</label>
+           <label for="improv9">
+           <input id="improv9" type="checkbox" name="improv" class="inline" value="ak" />Forum</label>
+          <input id="improv9" type="checkbox" name="improv" class="inline" value="al" />Additional Courses</label>
+        <fieldset>
+           <label for="suggest">Any comments or suggestions?
+          <textarea id="suggest" name="suggest" rows="6" cols="40" placeholder="Enter your comment here..."></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit" />
+
+    </form>
+  </main>
+</body>
+</html>
+
+
+
+
